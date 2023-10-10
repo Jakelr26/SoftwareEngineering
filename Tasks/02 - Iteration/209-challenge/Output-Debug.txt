@@ -1,0 +1,11 @@
+﻿'challengerfr.exe' (Win32): Loaded 'C:\Git Hub\SoftwareEngineering\Tasks\02 - Iteration\209-challenge\challengerfr\x64\Debug\challengerfr.exe'. Symbols loaded.
+'challengerfr.exe' (Win32): Loaded 'C:\Windows\System32\ntdll.dll'. 
+'challengerfr.exe' (Win32): Loaded 'C:\Windows\System32\kernel32.dll'. 
+'challengerfr.exe' (Win32): Loaded 'C:\Windows\System32\KernelBase.dll'. 
+'challengerfr.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140d.dll'. 
+'challengerfr.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbased.dll'. 
+The thread 0x2614 has exited with code 0 (0x0).
+The thread 0xa2a0 has exited with code 0 (0x0).
+The thread 0x682c has exited with code 0 (0x0).
+The thread 0x9afc has exited with code 3221225547 (0xc000004b).
+The program '[23496] challengerfr.exe' has exited with code 3221225786 (0xc000013a).
