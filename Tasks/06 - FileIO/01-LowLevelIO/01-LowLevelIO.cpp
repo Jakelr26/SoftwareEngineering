@@ -68,5 +68,5 @@ int main()
     fclose(inputStream);                                //For files, we must close
 
     return 0;
-y}
+}
 
