@@ -36,11 +36,17 @@ int main()
     }
     string subjectArea;
     inputStream >> subjectArea;
+    
+
+    for (unsigned int n = 0; n < 2; n++) {
+        inputStream >> nextWord;
+    }
+    int Code;
+    inputStream >> Code;
+    Code = Code++;
 
     //Display the result
-    cout << "Subject Area is " << subjectArea << endl;
-
-    int code;
+    cout << "Subject Area is " << subjectArea << Code << endl;
 
     //TO DO: 
     // Now find the module ID number
