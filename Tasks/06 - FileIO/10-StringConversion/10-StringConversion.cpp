@@ -45,6 +45,7 @@ int main()
         if (nextWord == "ID:") {
             cout << "Found \"ID:\". The code should be next...." << endl;
             //TODO:
+            iss >> nextWord;
             // Read the next word
             int num = stoi(nextWord);
             num++;

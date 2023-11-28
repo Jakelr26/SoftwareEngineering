@@ -48,11 +48,19 @@ int main()
             iss >> nextWord;
             if (!iss.fail()) {
                 //Convert a string to an integer
-                moduleNumber = stoi(nextWord);
-                //Write the new module code
-                cout << "COMP" << moduleNumber + 1 << endl;
-                //We are done! Break from the outer loop
-                break;
+                
+                try {
+                    moduleNumber = stoi(nextWord);
+                    //Write the new module code
+                    cout << "COMP" << moduleNumber + 1 << endl;
+                    break;
+                }
+                catch (exception e) {
+                    //We are done! Break from the outer loop
+                    cerr << "that failed with error \"" << e.what() << "\"" << endl;
+                    return -1;
+                }
+                
             }
         }
     }
