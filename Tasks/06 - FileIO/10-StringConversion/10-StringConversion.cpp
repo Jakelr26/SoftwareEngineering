@@ -27,7 +27,7 @@ int main()
     istringstream iss(dataString);
 
     // Read the first word
-    int moduleNumber;
+    int moduleNumber = 0;
     string nextWord;
 
     while (iss.eof() == false) 
@@ -46,6 +46,9 @@ int main()
             cout << "Found \"ID:\". The code should be next...." << endl;
             //TODO:
             // Read the next word
+            int num = stoi(nextWord);
+            num++;
+            cout << num << endl;
             // If successful, try to convert to an integer then break from the while loop
         }
     }

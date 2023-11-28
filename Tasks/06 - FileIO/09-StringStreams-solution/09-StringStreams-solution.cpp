@@ -30,6 +30,7 @@ int main()
             //The last try did not read a word - skip to the end
             continue;
         }
+
         //We must have read a word and not an end of file character
         count++;
 
